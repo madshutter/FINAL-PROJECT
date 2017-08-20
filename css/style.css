@@ -1,0 +1,51 @@
+/*.circleBase {
+    border-radius: 50%;
+}
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  /* width and height can be anything, as long as they're equal */
+
+
+.cir {
+	background-color: red;
+	width: 50px
+	height 50px;
+}
+
+/*#circle{ 
+	background: black; 
+	width: 128px; 
+	height: 128px; 
+	border-radius: 64px; 
+	border: 2px solid orange; 
+}
+
+
+#circle div { position:relative;
+ 	left: 19px; 
+ 	top: 19px; 
+ 	width: 90px; 
+ 	height: 90px; 
+ 	color: white; 
+ 	text-align:center; }*/
+
+/*.aquarius {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+}
+.pices {
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    border: 3px solid #000;
+}
+.aries {
+    width: 500px;
+    height: 500px;
+    background: aqua;
+    border: 30px solid blue;
+}*/
