@@ -1,0 +1,441 @@
+
+body {
+  display: inline-block;
+  width: 1440px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
+
+
+header {
+ /* grid-area: a;*/
+  background: none;
+  display: flex;
+  font-size: 2em;
+  padding: 0px 0px 50px 50px;
+  flex: 1;
+  justify-content: space-between;
+  /*background: url(../images/space.jpg) no-repeat center;*/
+  background-size: cover;
+}
+
+section {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+.astro {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0px 0px 50px 0px;
+}
+
+
+
+
+#astrologyone {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+#astrologytwo {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+
+#astro {
+  font-size: 3em;
+  font-family: "Nunito" 200;
+  color: black;
+  padding: none;
+  margin: none;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0px 0px 50px 0px;
+}
+
+/*// HOME PAGE //*/
+
+#astrology {
+  display: flex;
+  flex: 12;
+  margin: 0 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#aquarius {
+  display: inline-flex;
+  background: url(../images/aquarius.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+
+
+
+}
+
+#pisces {
+  display: inline-flex;
+  background: url(../images/pisces.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#aires {
+  display: inline-flex;
+  background: url(../images/aires.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#taurus {
+  display: inline-flex;
+  background: url(../images/taurus.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#gemini {
+  display: inline-flex;
+  background: url(../images/gemini.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#cancer {
+  display: inline-flex;
+  background: url(../images/cancer.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#leo {
+  display: inline-flex;
+  background: url(../images/leo.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#virgo {
+  display: inline-flex;
+  background: url(../images/virgo.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#libra {
+  display: inline-flex;
+  background: url(../images/libra.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#scorpio {
+  display: inline-flex;
+  background: url(../images/scorpio.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#sagittarius {
+  display: inline-flex;
+  background: url(../images/sagittarius.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#capricorn {
+  display: inline-flex;
+  background: url(../images/capricorn.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// AQUARIUS //*/
+
+#aquariuspage {
+  display: inline-flex;
+  background: url(../images/aquarius.jpg) no-repeat center;
+  background-size: cover;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// AIRES //*/
+
+#airespage {
+  display: inline-flex;
+  background: url(../images/aires.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// PISCES //*/
+
+#picespage {
+  display: inline-flex;
+  background: url(../images/pisces.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// TAURUS //*/
+
+#tauruspage {
+  display: inline-flex;
+  background: url(../images/taurus.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// GEMINI //*/
+
+#geminipage {
+  display: inline-flex;
+  background: url(../images/gemini.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// CANCER //*/
+
+#cancerpage {
+  display: inline-flex;
+  background: url(../images/cancer.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// LEO //*/
+
+#leopage {
+  display: inline-flex;
+  background: url(../images/leo.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// VIRGO //*/
+
+#virgopage {
+  display: inline-flex;
+  background: url(../images/virgo.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// LIBRA //*/
+
+#librapage {
+  display: inline-flex;
+  background: url(../images/libra.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// SCORPIO //*/
+
+#scorpiopage {
+  display: inline-flex;
+  background: url(../images/scopio.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// SAGITTARIUS //*/
+
+#sagittariuspage {
+  display: inline-flex;
+  background: url(../images/sagittarius.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+
+/*// CAPRICORN //*/
+
+#capricornpage {
+  display: inline-flex;
+  background: url(../images/capricorn.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+

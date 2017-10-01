@@ -1,51 +1,390 @@
-/*.circleBase {
-    border-radius: 50%;
+
+body {
+  display: inline-block;
+  width: 1440px;
 }
-.circle {
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
+
+
+header {
+ /* grid-area: a;*/
+  background: none;
+  display: flex;
+  font-size: 2em;
+  padding: 0px 0px 50px 50px;
+  flex: 1;
+  justify-content: space-between;
+  background: url(../images/space.jpg) no-repeat center;
+  background-size: cover;
+}
+
+section {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+.astro {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0px 0px 50px 0px;
+ /* margin: 0px 0px 0px 50px;*/
+}
+
+
+/*.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+*/
+
+#astrologyone {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+#astrologytwo {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+
+#astro {
+  font-size: 3em;
+  font-family: "Nunito" 200;
+  color: black;
+  padding: none;
+  margin: none;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0px 0px 50px 0px;
+}
+
+/*// HOME PAGE //*/
+
+#astrology {
+  display: flex;
+  flex: 12;
+  margin: 0 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#aquarius {
+  display: inline-flex;
+  background: url(../images/aquarius.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  width: 200px;
-  height: 200px; 
-  /* width and height can be anything, as long as they're equal */
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
 
 
-.cir {
-	background-color: red;
-	width: 50px
-	height 50px;
+
 }
 
-/*#circle{ 
-	background: black; 
-	width: 128px; 
-	height: 128px; 
-	border-radius: 64px; 
-	border: 2px solid orange; 
+#pisces {
+  display: inline-flex;
+  background: url(../images/pisces.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
 }
 
-
-#circle div { position:relative;
- 	left: 19px; 
- 	top: 19px; 
- 	width: 90px; 
- 	height: 90px; 
- 	color: white; 
- 	text-align:center; }*/
-
-/*.aquarius {
-    width: 100px;
-    height: 100px;
-    background: yellow;
-    border: 3px solid red;
+#aires {
+  display: inline-flex;
+  background: url(../images/aires.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
 }
-.pices {
-    width: 50px;
-    height: 50px;
-    background: #ccc;
-    border: 3px solid #000;
+
+#taurus {
+  display: inline-flex;
+  background: url(../images/taurus.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
 }
-.aries {
-    width: 500px;
-    height: 500px;
-    background: aqua;
-    border: 30px solid blue;
+
+#gemini {
+  display: inline-flex;
+  background: url(../images/gemini.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#cancer {
+  display: inline-flex;
+  background: url(../images/cancer.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#leo {
+  display: inline-flex;
+  background: url(../images/leo.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#virgo {
+  display: inline-flex;
+  background: url(../images/virgo.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#libra {
+  display: inline-flex;
+  background: url(../images/libra.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#scorpio {
+  display: inline-flex;
+  background: url(../images/scorpio.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#sagittarius {
+  display: inline-flex;
+  background: url(../images/sagittarius.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#capricorn {
+  display: inline-flex;
+  background: url(../images/capricorn.jpg) no-repeat center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// AQUARIUS //*/
+
+#aquariuspage {
+  display: inline-flex;
+  background: url(../images/aquarius.jpg) no-repeat center;
+  background-size: cover;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+/*// AIRES //*/
+
+#airespage {
+  display: inline-flex;
+  background: url(../images/aires.jpg) no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 350px;
+  border-radius: 50%;
+  color: rgba(1,1,1,10);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+// PISCES //
+
+// TAURUS //
+
+// GEMINI //
+
+// CANCER //
+
+// LEO //
+
+// VIRGO //
+
+// LIBRA //
+
+// SCORPIO //
+
+// SAGITTARIUS //
+
+
+// CAPRICORN //
+
+/*.img__wrap {
+  position: static;
+  height: 225px;
+  width: 225px;
+}*/
+
+/*.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+/*  transition: opacity .2s, visibility .2s;
+}*/
+
+/*.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+*/
+/*
+div {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center
+}
+
+img {
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  border-radius: 50%
+}
+
+img:hover {
+  opacity: 0;
+  transition:opacity 2s;
+}
+
+heading {
+  line-height: 40px;
+  font-weight: bold;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  position: absolute;
+  display: block
+}
+
+div p {
+  z-index: -1;
+  width: 225px;
+  line-height: 20px;
+  display: inline-block;
+  padding: 200px 0px;
+  vertical-align: middle;
+  font-family: "Trebuchet MS";
+  height: 225px
 }*/
